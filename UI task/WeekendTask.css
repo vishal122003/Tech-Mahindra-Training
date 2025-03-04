@@ -1,0 +1,32 @@
+.img-fluid{
+    height:300px;
+}
+footer{
+    width: 90%;
+    bottom: 0;
+    position: fixed;
+    bottom: 2;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2, p {
+    margin: 0 0 15px;
+}
+h1 {
+    color: #333;
+}
+h2 {
+    color: #555;
+}

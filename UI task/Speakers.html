@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speakers Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .speaker {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .speaker img {
+            border-radius: 50%;
+            margin-right: 20px;
+            width: 100px;
+            height: 100px;
+        }
+        .speaker-info {
+            flex: 1;
+            min-width: 200px;
+        }
+        .speaker-name {
+            font-size: 1.5em;
+            margin: 0;
+        }
+        .speaker-bio {
+            color: #666;
+        }
+        @media (max-width: 600px) {
+            .speaker {
+                flex-direction: column;
+                text-align: center;
+            }
+            .speaker img {
+                margin: 0 auto 10px;
+            }
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header
+    <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+        <li class="nav-item" role="presentation">
+          <a href="Home.html"><button class="nav-link rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button></a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a href="./About.html"><button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">About</button></a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a href="./Schedule.html"><button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Schedule</button></a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Speakers</button>
+          </li><li class="nav-item" role="presentation">
+            <a href="./Contact.html"><button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button></a>
+          </li>
+      </ul>
+    </header>
+
+    <div class="container">
+        <h1>Our Speakers</h1>
+        <!-- Speaker 1 -->
+        <div class="speaker">
+            <img src="https://th.bing.com/th/id/OIP.rBo8QHjL6nHDlyNZHy8d9QHaIg?w=738&h=847&rs=1&pid=ImgDetMain" alt="Speaker 1 Photo">
+            <div class="speaker-info">
+                <h2 class="speaker-name">Dominique Luster:</h2>
+                <p class="speaker-bio">Dominique is a seasoned expert in archival science and history. <br> He has worked with numerous institutions to preserve and share historical narratives. His engaging talks focus on the importance of preserving cultural heritage and making history accessible to all.</p>
+            </div>
+        </div>
+        <!-- Speaker 2 -->
+        <div class="speaker">
+            <img src="https://th.bing.com/th/id/OIP.pz6xRDiM9RljvkfiVw-YdAHaHa?rs=1&pid=ImgDetMain" alt="Speaker 2 Photo">
+            <div class="speaker-info">
+                <h2 class="speaker-name">Dr. Peggy DeLong</h2>
+                <p class="speaker-bio">Dr. DeLong is a psychologist and author who specializes in resilience and mental health. <br>She has delivered keynote speeches at various conferences, sharing her insights on coping strategies and mental well-being.</p>
+            </div>
+        </div>
+        <!-- Add more speakers as needed -->
+        <div class="speaker">
+            <img src="https://th.bing.com/th/id/OIP.Mv-wKYVwL1tsIcKNxwXPWAAAAA?w=384&h=437&rs=1&pid=ImgDetMain" alt="Speaker 3 Photo">
+            <div class="speaker-info">
+                <h2 class="speaker-name">David Palmiter</h2>
+                <p class="speaker-bio">David is a clinical psychologist and professor known for his work in child and adolescent psychology. <br> His presentations often cover topics such as parenting, mental health, and effective communication with children.</p>
+            </div>
+        </div>
+        <div class="speaker">
+            <img src="https://th.bing.com/th/id/OIP.zbUKJvTL-rsOZh3s_Mfk5wAAAA?rs=1&pid=ImgDetMain" alt="Speaker 4 Photo">
+            <div class="speaker-info">
+                <h2 class="speaker-name">Chris Failla</h2>
+                <p class="speaker-bio">Chris is a leadership coach and consultant who helps organizations develop effective leadership strategies. <br>His talks are known for their practical advice and actionable insights on leadership and team dynamics.</p>
+            </div>
+        </div>
+        <div class="speaker">
+            <img src="https://thespeakerlab.com/wp-content/uploads/2023/01/official-image-sg-smaller-1-scaled.jpg" alt="Speaker 5 Photo">
+            <div class="speaker-info">
+                <h2 class="speaker-name">Shailesh Ghimire</h2>
+                <p class="speaker-bio">Shailesh is a marketing strategist and entrepreneur. <br>He has spoken at numerous conferences about digital marketing, branding, and business growth, sharing his expertise with aspiring entrepreneurs and business leaders.</p>
+            </div>
+        </div>
+        <div class="speaker">
+            <img src="https://th.bing.com/th/id/OIP.oNPleGnj7FgNOPtsEQG_lQAAAA?rs=1&pid=ImgDetMain" alt="Speaker 6 Photo">
+            <div class="speaker-info">
+                <h2 class="speaker-name">Amy Fuentes</h2>
+                <p class="speaker-bio">Amy is a public speaking coach and author who helps individuals overcome their fear of public speaking. <br> Her workshops and talks are designed to empower people to communicate confidently and effectively.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div style="text-align: center; padding: 20px; background-color: #f4f4f4; display: flex; flex-direction: column; align-items: center;">
+            <p>&copy; 2025 InnovativeX Conference. All rights reserved.</p>
+            <p>Website by InnovativeX.</p>
+            <p>
+                <a href="https://www.innovativexconference.com/privacy-policy" style="margin-right: 10px;">Privacy Policy</a> |
+                <a href="https://www.innovativexconference.com/terms-of-service" style="margin-left: 10px;">Terms of Service</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
