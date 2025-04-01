@@ -1,0 +1,31 @@
+<div class="home">
+    <div class="welcome-section">
+      <h1>Welcome to the Bus Booking App</h1>
+      <p>Book your bus tickets easily and travel comfortably. Explore our services and enjoy a seamless booking experience.</p>
+    </div>
+  
+    <div class="featured-buses">
+      <h2>Featured Buses</h2>
+      <div class="bus" *ngFor="let bus of featuredBuses">
+        <app-bus-details [bus]="bus"></app-bus-details>
+      </div>
+    </div>
+  
+    <div class="testimonials">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonial" *ngFor="let testimonial of testimonials">
+        <p>{{ testimonial.message }}</p>
+        <p><strong>- {{ testimonial.name }}</strong></p>
+      </div>
+    </div>
+    <div class="service-highlights">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Easy Online Booking</li>
+        <li>24/7 Customer Support</li>
+        <li>Comfortable and Safe Buses</li>
+        <li>Affordable Rates</li>
+      </ul>
+    </div>
+  </div>
+  

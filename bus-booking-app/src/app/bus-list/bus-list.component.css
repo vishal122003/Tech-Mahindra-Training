@@ -1,0 +1,23 @@
+.filters {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #eaf4fc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filters label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .filters input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+  }
+  
