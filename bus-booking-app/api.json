@@ -1,0 +1,74 @@
+{
+    "buses":[{
+      "id": 1,
+      "name": "Luxury Express",
+      "route": "Bangalore to Mumbai (Via:Pune)",
+      "boardTime": "10:00 AM",
+      "dropTime": "2:00 AM",
+      "rate": 1500,
+      "busModel": "Volvo B9R 9600S",
+      "busOperator": "VRL Travels",
+      "rating": 4.5,
+      "busFeature": "WiFi, AC, Comfortable Spleer Seats",
+      "busPhotos": ["http://localhost:8090/vrl.jpg"],
+      "availableSeats": 10
+    },
+    {
+      "id": 2,
+      "name": "Bangalore Day Rider",
+      "route": "Chennai to Bangalore (Via:Chittor)",
+      "boardTime": "11:00 AM",
+      "dropTime": "4:00 PM",
+      "rate": 900,
+      "busModel": "Tata 2025",
+      "busOperator": "SBM Tours",
+      "rating": 3.8,
+      "busFeature": "AC, Comfortable Seats",
+      "busPhotos": ["http://localhost:8090/sbm.jpg"],
+      "availableSeats": 20
+    },
+    {
+        "id": 3,
+        "name": "Madurai Highrider",
+        "route": "Chennai to Madurai (Via:Trichy)",
+        "boardTime": "11:00 PM",
+        "dropTime": "4:00 AM",
+        "rate": 800,
+        "busModel": "BharathBenz",
+        "busOperator": "National Travels",
+        "rating": 3.8,
+        "busFeature": "AC,  Sleeper, Wi-Fi, GPS",
+        "busPhotos": ["http://localhost:8090/national.jpg"],
+        "availableSeats": 20
+      },
+      {
+        "id": 4,
+        "name": "Hyderabad Rider",
+        "route": "Chennai to Hyderabad (Via:Ongole)",
+        "boardTime": "11:00 PM",
+        "dropTime": "11:00 AM",
+        "rate": 1900,
+        "busModel": "Volvo B11R",
+        "busOperator": "Punchiry Tours",
+        "rating": 4.8,
+        "busFeature": "AC, Comfortable Seats, GPS",
+        "busPhotos": ["http://localhost:8090/punchiry.png"],
+        "availableSeats": 15
+      },
+      {
+        "id": 5,
+        "name": "Goa Rider",
+        "route": "Bangalore to Goa",
+        "boardTime": "11:00 PM",
+        "dropTime": "8:00 AM",
+        "rate": 1600,
+        "busModel": "Volvo B11R",
+        "busOperator": "Canara Pinto Tours",
+        "rating": 4.6,
+        "busFeature": "AC, Comfortable Seats, GPS",
+        "busPhotos": ["http://localhost:8090/canaro.jpg"],
+        "availableSeats": 22
+      }
+]
+    }
+  

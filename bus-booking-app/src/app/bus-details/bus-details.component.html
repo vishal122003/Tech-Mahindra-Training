@@ -1,0 +1,15 @@
+<div *ngIf="bus" class="bus-details">
+  <h2>{{ bus.name }}</h2>
+  <img [src]="bus.busPhotos[0]" alt="{{ bus.name }}" class="bus-photo">
+  <div class="details-grid">
+    <div><strong>Operator:</strong> {{ bus.busOperator }}</div>
+    <div><strong>Route:</strong> {{ bus.route }}</div>
+    <div><strong>Board Time:</strong> {{ bus.boardTime }}</div>
+    <div><strong>Drop Time:</strong> {{ bus.dropTime }}</div>
+    <div><strong>Rate:</strong> ₹{{ bus.rate }}</div>
+    <div><strong>Available Seats:</strong> {{ bus.availableSeats }}</div>
+    <div><strong>Features:</strong> {{ bus.busFeature }}</div>
+    <div><strong>Rating:</strong> {{ bus.rating }} / 5</div>
+  </div>
+  <a [routerLink]="['/booking']" class="booking-button">Book Now</a>
+</div>
